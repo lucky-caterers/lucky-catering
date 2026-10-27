@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#171512">
   <meta name="description" content="Lucky Catering & Cooking in Ibrahimpatnam, Telangana. Catering for weddings, birthdays, functions, corporate events and home food orders.">
+  <meta property="og:title" content="LUCKY CATERING & COOKING">
+  <meta property="og:description" content="Good food. Happy moments. Enquire about catering for your special occasion in Ibrahimpatnam and nearby areas.">
+  <meta property="og:type" content="website">
   <title>LUCKY CATERING & COOKING | Delicious Food, Memorable Celebrations</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -26,7 +29,7 @@
       <div class="hero-content">
         <p class="eyebrow">GOOD FOOD. HAPPY MOMENTS.</p>
         <h1>Delicious Food.<br><em>Memorable Celebrations.</em></h1>
-        <p class="hero-copy">Making your special occasions more memorable with catering and cooking services for every gathering.</p>
+        <p class="hero-copy">Thoughtful catering and cooking for weddings, birthdays, family functions and special gatherings.</p>
         <div class="hero-actions">
           <a class="button button-gold" href="https://wa.me/917286925869?text=Hello%20Lucky%20Catering%20%26%20Cooking%2C%20I%20would%20like%20to%20enquire%20about%20catering." target="_blank" rel="noopener">Enquire on WhatsApp ↗</a>
           <a class="button button-outline" href="#services">Explore Our Services</a>
@@ -39,7 +42,7 @@
     <section class="intro section-wrap">
       <p class="eyebrow">WELCOME TO LUCKY</p>
       <h2>Every event deserves <em>great food.</em></h2>
-      <p class="section-lead">From family celebrations to special occasions, we help you plan food that brings people together. Tell us about your event and we'll discuss the menu and arrangements with you.</p>
+      <p class="section-lead">From family celebrations to special occasions, we help you plan food that brings people together. Tell us about your event and we’ll discuss the menu and arrangements with you.</p>
     </section>
 
     <section class="services section-wrap" id="services">
@@ -56,7 +59,7 @@
 
     <section class="gallery" id="gallery">
       <div class="section-wrap">
-        <div class="section-heading"><div><p class="eyebrow">A TASTE OF THE EXPERIENCE</p><h2>Food for every occasion</h2></div><p>Replace these sample images with photos of your own dishes and events.</p></div>
+        <div class="section-heading"><div><p class="eyebrow">A TASTE OF THE EXPERIENCE</p><h2>Food for every occasion</h2></div><p>A glimpse of the flavours and moments we love bringing to the table.</p></div>
         <div class="gallery-grid">
           <figure class="gallery-large"><img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=85" alt="Indian meal served with rice and curry" loading="lazy"><figcaption>Traditional flavours</figcaption></figure>
           <figure><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85" alt="Freshly prepared food" loading="lazy"><figcaption>Fresh food</figcaption></figure>
@@ -73,9 +76,43 @@
     <section class="contact" id="contact">
       <div class="contact-inner">
         <p class="eyebrow">LET'S PLAN SOMETHING DELICIOUS</p>
-        <h2>Planning an event?</h2>
-        <p>Send us your event details on WhatsApp to enquire about menu options and a quotation.</p>
-        <a class="button button-gold" href="https://wa.me/917286925869?text=Hello%20Lucky%20Catering%20%26%20Cooking%2C%0A%0AI%20would%20like%20a%20catering%20quotation.%0AEvent%20type%3A%0AEvent%20date%3A%0ALocation%3A%0ANumber%20of%20guests%3A%0AFood%20requirements%3A" target="_blank" rel="noopener">Request a Quotation on WhatsApp ↗</a>
+        <h2>Send an Enquiry to the Owner</h2>
+        <p>Complete the details below and WhatsApp will open with your enquiry ready to send directly to Lucky Catering & Cooking.</p>
+
+        <form class="enquiry-form" id="whatsapp-enquiry-form">
+          <div class="form-grid">
+            <label>Name <span>*</span>
+              <input type="text" name="customerName" autocomplete="name" placeholder="Enter your name" required>
+            </label>
+            <label>Phone number <span>*</span>
+              <input type="tel" name="customerPhone" autocomplete="tel" inputmode="tel" placeholder="Enter your phone number" required>
+            </label>
+            <label>Event <span>*</span>
+              <select name="eventType" required>
+                <option value="">Select event</option>
+                <option>Wedding</option>
+                <option>Birthday</option>
+                <option>Family Function</option>
+                <option>Corporate Event</option>
+                <option>Cooking Services</option>
+                <option>Home Food Order</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>Date
+              <input type="date" name="eventDate">
+            </label>
+            <label>No. of people
+              <input type="number" name="guestCount" min="1" placeholder="Enter number of people">
+            </label>
+            <label class="form-full">Items / Menu
+              <textarea name="requirements" rows="4" placeholder="List the food items or menu you need..."></textarea>
+            </label>
+          </div>
+          <p class="form-note">Check your details before sending. WhatsApp will open with your enquiry ready; tap <strong>Send</strong> to send it to the owner.</p>
+          <button class="button button-gold form-submit" type="submit">Send Enquiry to Owner on WhatsApp ↗</button>
+        </form>
+
         <div class="contact-details">
           <div><span>CALL / WHATSAPP</span><a href="https://wa.me/917286925869" target="_blank" rel="noopener">+91 72869 25869</a></div>
           <div><span>OUR LOCATION</span><p>Brindhavan Colony, Ibrahimpatnam (V),<br>Ranga Reddy (D), Telangana – 501516</p></div>
